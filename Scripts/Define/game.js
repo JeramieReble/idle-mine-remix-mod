@@ -178,7 +178,7 @@ var game =
                 {index: 213, obj: new MineObject("Sloan Great Wall", 999.999e147, 9.999e147, 1.0101e198, ["#f6e2c4", "#008f11"], 34, {drops:{planetcoin: {chance: 0.7777, amount: 22.222e18}}})},
                 {index: 214, obj: new MineObject("THE UNIVERSE", 99.999e150, 9.999e150, 99.999e198, ["#000000", "#ff0000", "#00ff00", "#0000ff"], 35, {drops:{wisdom: {chance: 1, amount: 1e15}}})},
                 {index: 215, obj: new MineObject("Portal II", 99.999e153, 999.999e153, 10e201, ["#000000", "#ffffff"], 16)},
-                {index: 216, obj: new MineObject("Paper Of End", 2.5e156, 2.5e155, 1.5e202, ["#000000", "#ffffff", "#ffffff", "#000000"], 13),
+                {index: 216, obj: new MineObject("Paper Of End", 2.5e156, 2.5e155, 1.5e202, ["#000000", "#ffffff", "#ffffff", "#000000"], 13)},
 
             ],
         currentMineObject: null,
