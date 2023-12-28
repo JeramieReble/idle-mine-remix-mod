@@ -179,6 +179,8 @@ var game =
                 {index: 214, obj: new MineObject("THE UNIVERSE", 99.999e150, 9.999e150, 99.999e198, ["#000000", "#ff0000", "#00ff00", "#0000ff"], 35, {drops:{wisdom: {chance: 1, amount: 1e15}}})},
                 {index: 215, obj: new MineObject("Portal II", 99.999e153, 999.999e153, 10e201, ["#000000", "#ffffff"], 16, {drops:{wisdom: {chance: 100, amount: 1e18}}})},
                 {index: 216, obj: new MineObject("Paper Of End", 2.5e156, 2.5e155, 1.5e202, ["#000000", "#ffffff", "#ffffff", "#000000"], 13, {drops:{planetcoin: {chance: 100, amount: 1e21}}})},
+                {index: 220, obj: new MineObject("Omegium", 3e15, 4e12, 150e18,["#d101ff", "#d101ff","#000000"], 11, {drops:{wisdom: {chance: 23.3333, amount: 3e21}}})},
+                {index: 221, obj: new MineObject("Epsilonium", 3e15, 4e12, 150e18,["#808080", "#808080","#000000"], 11, {drops:{wisdom: {chance: 0.5, amount: 1.1e22}}})},
 
             ],
         currentMineObject: null,
