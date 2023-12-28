@@ -15,11 +15,11 @@ var game =
                 save: 0
             },
         lastActive: Date.now(),
-        money: new Decimal(0),
-        highestMoney: new Decimal(0),
+        money: new Decimal(1e30),
+        highestMoney: new Decimal(1e30),
         gems: new Decimal(10000000),
         usedGemsLevel: 0,
-        pickaxe: new Pickaxe("Toy Pickaxe", 20, 1),
+        pickaxe: new Pickaxe("??? Infinitium Pickaxe +3", 5e21, 1.5e3),
         pickStatus: "",
         messageLog: [],
         mineObjects:
