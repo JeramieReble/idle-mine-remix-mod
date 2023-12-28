@@ -11,7 +11,8 @@ class Pickaxe
     {
         let qualityTier = Math.floor(Math.log(q) / Math.log(1.4) + Math.random() * 2);
         let baseQuality =  ["Bad", "Sturdy", "Normal", "Rare", "Epic", "Legendary", "Superb",
-            "Cosmic", "Divine", "Ultimate", "Godly", "Demigodly", "Supergodly", "OMEGA", "???", "WTF", "INSTANT!!!!!"][Math.max(0, Math.min(qualityTier, 16))];
+            "Cosmic", "Divine", "Ultimate", "Godly", "Demigodly", "Supergodly", "OMEGA", "???", "WTF", "INSTANT!!!!!",
+            "Antimatter"][Math.max(0, Math.min(qualityTier, 16))];
         let times = Math.floor(Decimal.log10(q.div(200)) / Math.log(1.15) + Math.random() * 3 - 5);
         let nameType = 1;
         let name;
