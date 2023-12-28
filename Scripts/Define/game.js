@@ -15,13 +15,13 @@ var game =
                 save: 0
             },
         lastActive: Date.now(),
-        money: new Decimal(1e30),
-        highestMoney: new Decimal(1e30),
-        gems: new Decimal(10000000),
+        money: new Decimal(1e100),
+        highestMoney: new Decimal(1e100),
+        gems: new Decimal(1000000000),
         usedGemsLevel: 0,
-        pickaxe: new Pickaxe("??? Infinitium Pickaxe +3", 5e21, 1.5e3),
+        pickaxe: new Pickaxe("Antimatter Infinitium Pickaxe +20", 5e41, 2.3e4),
         pickStatus: "",
-        messageLog: [],
+        messageLog: [OMG OMG],
         mineObjects:
             [
                 new MineObject("Mud", 100, 0, 2, ["#000000", "#663300"]),
