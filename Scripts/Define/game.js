@@ -15,8 +15,8 @@ var game =
                 save: 0
             },
         lastActive: Date.now(),
-        money: new Decimal(1e100),
-        highestMoney: new Decimal(1e100),
+        money: new Decimal(1e200),
+        highestMoney: new Decimal(1e200),
         gems: new Decimal(1000000000),
         usedGemsLevel: 0,
         pickaxe: new Pickaxe("Antimatter Infinitium Pickaxe +20", 5e41, 2.3e4),
