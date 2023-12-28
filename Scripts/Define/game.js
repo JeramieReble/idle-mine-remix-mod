@@ -21,7 +21,7 @@ var game =
         usedGemsLevel: 0,
         pickaxe: new Pickaxe("Antimatter Infinitium Pickaxe +20", 5e41, 2.3e4),
         pickStatus: "",
-        messageLog: [OMG OMG],
+        messageLog: ["OMG OMG"],
         mineObjects:
             [
                 new MineObject("Mud", 100, 0, 2, ["#000000", "#663300"]),
