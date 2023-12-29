@@ -15,11 +15,11 @@ var game =
                 save: 0
             },
         lastActive: Date.now(),
-        money: new Decimal(1.797e308),
-        highestMoney: new Decimal(1.797e308),
-        gems: new Decimal(1e20),
+        money: new Decimal(1e500),
+        highestMoney: new Decimal(1e500),
+        gems: new Decimal(1e33),
         usedGemsLevel: 0,
-        pickaxe: new Pickaxe("Annihilation Pick", 1.5e57, 1e6),
+        pickaxe: new Pickaxe("Super Annihilation Pick", 1e100, 1e9),
         pickStatus: "",
         messageLog: [],
         mineObjects:
@@ -183,6 +183,7 @@ var game =
                 {index: 221, obj: new MineObject("Epsilonium", 3e162, 4e162, 150e161,["#808080", "#808080","#000000"], 11, {drops:{wisdom: {chance: 0.5, amount: 1.1e22}}})},
                 {index: 222, obj: new MineObject("Zetaium", 2.3e165, 6.5536e165, 150e164,["#808080", "#808080","#000000"], 11, {drops:{wisdom: {chance: 47.7, amount: 5.5e23}}})},
                 {index: 225, obj: new MineObject("Etanium", 2.777e168, 3.2e168, 4.74e169,["#ff8800", "#ff8800","#000000"], 11, {drops:{wisdom: {chance: 11.1, amount: 1.23e24}}})},
+                {index: 241, obj: new MineObject("Etanium Orb", 2.6e257, 2e257, 13.5e257,["#ffffff","#000000", "#ff8800"], 5, {drops:{planetcoin: {chance: 100, amount: 5e34}}})},
 
             ],
         currentMineObject: null,
