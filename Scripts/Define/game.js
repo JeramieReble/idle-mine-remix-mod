@@ -19,7 +19,7 @@ var game =
         highestMoney: new Decimal(1.797e308),
         gems: new Decimal(1e20),
         usedGemsLevel: 0,
-        pickaxe: new Pickaxe("Antimatter Infinitium Pickaxe +20", 5e41, 2.3e4),
+        pickaxe: new Pickaxe("Annihilation Pick", 1.5e57, 1e6),
         pickStatus: "",
         messageLog: [],
         mineObjects:
